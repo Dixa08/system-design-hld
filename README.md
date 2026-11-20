@@ -8,7 +8,7 @@ High-Level System Design architectures created in **draw.io**, covering core dis
 
 ## 1. Food Delivery System (Swiggy / Zomato)
 
-![Food Delivery HLD](./food-delivery-hld.png)
+![Food Delivery HLD](./Food Delivery.drawio.png)
 
 ### Key Architectural Highlights
 * **User & Menu Browsing:** JWT/OAuth2 authentication via `User Service` (PostgreSQL), paired with **Redis** menu caching and **Elasticsearch** for low-latency restaurant discovery.
