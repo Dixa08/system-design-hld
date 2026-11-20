@@ -19,7 +19,7 @@ High-Level System Design architectures created in **draw.io**, covering core dis
 
 ## 2. Notification System
 
-![Notification System HLD](./notification-system-hld.png)
+![Notification System HLD](./Notification System.drawio (1).png)
 
 ### Key Architectural Highlights
 * **Multi-Channel Isolation:** Separate **Kafka** queues for Email (SendGrid/SES), SMS (Twilio), and Push (FCM/APNs) prevent slow providers from blocking high-priority alerts.
