@@ -18,8 +18,7 @@ High-Level System Design architectures created in **draw.io**, covering core dis
 ---
 
 ## 2. Notification System
-
-![Notification System HLD](https://github.com/Dixa08/system-design-hld/blob/main/URL%20Shortener.drawio.png)
+![Notification System HLD](https://github.com/Dixa08/system-design-hld/blob/main/Notification%20System.drawio%20(1).png)
 
 ### Key Architectural Highlights
 * **Multi-Channel Isolation:** Separate **Kafka** queues for Email (SendGrid/SES), SMS (Twilio), and Push (FCM/APNs) prevent slow providers from blocking high-priority alerts.
@@ -30,7 +29,7 @@ High-Level System Design architectures created in **draw.io**, covering core dis
 
 ## 3. URL Shortener (Bitly)
 
-![URL Shortener HLD](./url-shortener-hld.png)
+![URL Shortener HLD](https://github.com/Dixa08/system-design-hld/blob/main/URL%20Shortener.drawio.png)
 
 ### Key Architectural Highlights
 * **Collision-Free Key Generation:** 7-character **Base62** short codes ($62^7 \approx 3.5\text{T}$ combinations) backed by a distributed Key Generation Service (ZooKeeper/Redis).
